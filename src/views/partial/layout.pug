@@ -1,0 +1,48 @@
+doctype html
+html(lang="en" ng-app="tremorsApp")
+  head
+    meta(charset="utf-8")
+    meta(name="viewport" content="width=device-width, initial-scale=1.0")
+    meta(property="og:image" content="http://i.imgur.com/xVG9bL3.png")
+    meta(name="google-site-verification" content="yjxWY1qGWfySuAB9FEyXXJosAbaiJR_NibsHno3kA74")
+    script.
+      //script js
+      (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+          (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date(); a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+      })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+      ga('create', 'UA-63387700-1', 'auto');
+      ga('send', 'pageview');
+    title Home | Instigators
+    link(href='/css/content.css' rel="stylesheet")
+    script(src="/js/modernizr.js")
+    script(src="/js/angular.bundled.js")
+    link(href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700' rel='stylesheet' type='text/css') 
+  body
+    div(class="navbar navbar-default navbar-fixed-top")
+      div(class="container")
+        div(class="navbar-header")
+          button(type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse")
+            span(class="icon-bar")
+            span(class="icon-bar")
+            span(class="icon-bar")
+          a(class="navbar-brand" href="/") Tremors
+        div(class="navbar-collapse collapse")
+          ul(class="nav navbar-nav navbar-right")
+            li 
+              a(href="/") Home
+            li 
+              a(href="#about-dialog" data-toggle="modal" data-target="#about-dialog") About
+            li
+              a(href="#contact-dialog" data-toggle="modal" data-target="#contact-dialog") Contact
+    block body
+    script(src="/js/jquery.bundled.js")
+    script(src="/js/bootstrap.bundled.js")
+
+    block scripts
+
+
+

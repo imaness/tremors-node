@@ -1,0 +1,10 @@
+﻿[
+    { "PlaceName": "Veterans Memorial Golf Course", "Lat": "14.6558565", "Lng": "121.039711", "Quadrant": "North" },
+    { "PlaceName": "University of the Philippines - Diliman", "Lat": "14.659974", "Lng": "121.07022", "Quadrant": "North" },
+    { "PlaceName": "LRT 2 - Santolan Depot", "Lat": "14.622066", "Lng": "121.0859958", "Quadrant": "East" },
+    { "PlaceName": "Marikina Boys Town", "Lat": "14.6587779", "Lng": "121.1144579", "Quadrant": "East" },
+    { "PlaceName": "Red Cross Marikina", "Lat": "14.629651", "Lng": "121.096484", "Quadrant": "East" },
+    { "PlaceName": "Ultra - Pasig", "Lat": "14.582888", "Lng": "121.064066", "Quadrant": "East" },
+    { "PlaceName": "Intramuros Golf Course", "Lat": "14.588793", "Lng": "120.972607", "Quadrant": "West" },
+    { "PlaceName": "Villamor Air Base Golf Club", "Lat": "14.5174957", "Lng": "121.0205566", "Quadrant": "South" } 
+]

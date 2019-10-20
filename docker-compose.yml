@@ -1,0 +1,33 @@
+version: '3.7'
+services:
+  nodeapp:
+    build:
+      context: .
+      dockerfile: .docker/node.development.dockerfile
+    depends_on:
+     - redis
+    ports:
+      - "8080"
+    volumes:
+      - .:/var/www/tremors
+    working_dir: /var/www/tremors
+    environment: 
+      - NODE_ENV=development
+    networks:
+      - tremors-network
+  nginx:
+    container_name: nginx
+    build: 
+      context: .
+      dockerfile: .docker/nginx.development.dockerfile
+    depends_on: 
+      - nodeapp
+    ports:
+      - "80:80"
+    networks:
+      - tremors-network
+networks:
+    tremors-network:
+      driver: bridge
+
+     
