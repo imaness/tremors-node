@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "LineType": 2010 }, "geometry": { "type": "LineString", "coordinates": [ [ 121.108464, 14.694046 ], [ 121.108452, 14.694206 ], [ 121.108427, 14.694305 ], [ 121.108402, 14.694415 ], [ 121.108378, 14.6946 ], [ 121.108378, 14.694821 ], [ 121.108402, 14.69503 ] ] } },
+{ "type": "Feature", "properties": { "LineType": 2010 }, "geometry": { "type": "LineString", "coordinates": [ [ 121.1085, 14.693764 ], [ 121.108513, 14.693554 ], [ 121.108488, 14.693321 ], [ 121.108451, 14.693173 ] ] } }
+]
+}
